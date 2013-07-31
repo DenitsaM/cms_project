@@ -1,0 +1,15 @@
+Explanations for theme Project 3:
+
+The template has implemented landing page  home - with custom template
+there is blog template and custom category business template.
+the left sidebars are implemented with register sidebar and the content is from widgets.
+the implementation of banners can be done with adding Links with attaching image to the link or with plugins.
+The footer is implemented as footer sidebars with widgets.
+There is custom header support and custom background support
+the banner under the menu can be changed if you change the pictutre in the folder and use the same name:
+                    <?php
+                    $imgPath = get_bloginfo('stylesheet_directory').'/images/logo.png'; // use the same folder location and the same name to change the banner
+                    ?>
+                    <div id="banner"><a href="#"><img src="<?php echo $imgPath; ?>" alt=""></a></div>
+Link to implementation of the theme:
+http://denitsaart.telerik-students.org/
